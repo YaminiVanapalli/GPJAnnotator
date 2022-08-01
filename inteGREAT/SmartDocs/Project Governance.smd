@@ -1,1 +1,675 @@
-{"smartdocsmetainfo":{"Id":147069,"ParentId":0,"Index":0,"Title":"","Description":"","IsNew":true,"FilePath":"","ParentPath":"","Type":"Document","ParentIndex":0,"IndentString":"","Level":0,"Childrens":[],"LastChildId":"0","ParentTypePath":"/","TypeGuid":"","IsGhostLink":false,"UniqueId":""},"template":{"wiMappings":[{"isRecursive":false,"label":"Epic","linkTypes":["Child"],"links":[{"isRecursive":false,"label":"Feature","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"Functional Requirement","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"E7999410-C137-4E4B-9EC5-5B0007C88804","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>","referenceName":"System.Description"},{"name":"Priority","value":"2","referenceName":"Microsoft.VSTS.Common.Priority"},{"name":"Value Area","value":"Business","referenceName":"Microsoft.VSTS.Common.ValueArea"},{"name":"Triage","value":"Pending","referenceName":"Microsoft.VSTS.Common.Triage"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Requirement","wiTypeGuid":"0B9D7011-FCF4-4497-AC8D-BC688F56D2F9","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Basic Requirement","linkTypes":["Child"],"links":[],"props":[{"name":"Description","value":"<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol> </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframe</b>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Requirement","wiTypeGuid":"7463E6BE-4D90-4542-83E8-26E70B66F684","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Change Request - Standard","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"Diagram","linkTypes":["Related","Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Diagram","wiTypeGuid":"88F0B0FF-CB3B-429A-8355-36DA95480F07","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>CR Objective</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr><td style=\"width:15%;\"><b>Current Implementation</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Proposed Change</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Complexity[Simple/Medium/Complex]</b></td><td  style=\"width:85%;\"></td></tr> </table> </br> <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Change Request","wiTypeGuid":"1EF46713-7E1B-4045-94A7-03894048B582","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Change Request - Basic","linkTypes":["Child"],"links":[],"props":[{"name":"Description","value":"<b>CR Objective</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr><td style=\"width:15%;\"><b>Current Implementation</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Proposed Change</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Complexity[Simple/Medium/Complex]</b></td><td  style=\"width:85%;\"></td></tr> </table>  </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframes</b>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Change Request","wiTypeGuid":"34507B60-16D0-46E8-921B-42F6C7BC9A1A","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Related","Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"E3566D48-10B1-49A4-875E-AF3E99653C04","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Bug","linkTypes":[],"links":[],"props":[],"displayProps":[],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Bug","wiTypeGuid":"AC8A4BAF-0DB6-44EE-B98A-D14DAD97AE3F","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Business Challenge</b>  <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Feature description</b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>  <b>Business Value Add </b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>  <b>Dependencies</b>  <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Dependent System</b></td> \t<td style=\"width:10%;\" ><b>Details</b></td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:30%;\"></td> \t<td style=\"width:65%;\"></td> </tr> </tbody></table>","referenceName":"System.Description"},{"name":"Priority","value":"2","referenceName":"Microsoft.VSTS.Common.Priority"},{"name":"Triage","value":"Pending","referenceName":"Microsoft.VSTS.Common.Triage"},{"name":"Value Area","value":"Business","referenceName":"Microsoft.VSTS.Common.ValueArea"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Feature","wiTypeGuid":"3F272BAB-C408-40D1-A5E6-E8D0D6481757","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":false,"label":"NFR - Web","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"289B35B3-2DBD-4419-BB2D-A9AC646D8DB1","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Basic Requirement","linkTypes":["Child"],"links":[],"props":[{"name":"Description","value":"<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol> </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframe</b>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Requirement","wiTypeGuid":"7463E6BE-4D90-4542-83E8-26E70B66F684","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Functional Requirement","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"48F38227-5629-4D84-AA7B-D60B61BFCDDF","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Requirement","wiTypeGuid":"0B9D7011-FCF4-4497-AC8D-BC688F56D2F9","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Authentication</b> - What type of Authentication is Used to authenticating the Users?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Authorization</b> - How the Users Roles, Groups and Claims are defined?! <ol Margin=\"0\">\t <li>Objective 2</li> </ol>  <b>Environment</b> - What types of environments will the system be expected to perform within?! Like Browsers to be supported. <ol Margin=\"0\">\t <li>Objective 1</li> </ol> <table style=\"width:100%;border:1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Browser</b></td> \t<td style=\"width:30%;\"><b>Is Supported(Y/N)</b></td> \t<td style=\"width:40%;\"><b>Min Version to Support</b></td></tr> <tr> \t<td >Internet Explorer</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Edge</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Chrome</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Safari</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Firefox</td> \t<td ></td> \t<td ></td> </tr> </tbody></table> </br>  <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Scalability and Load Testing</b> - What are the highest workloads under which the system will still perform as expected?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Capacity</b> - What are your system’s storage requirements, today and in the future? How will your system scale up for increasing volume demands?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Feature","wiTypeGuid":"44A21045-9FBF-4C25-834F-F4E790565AF9","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":false,"label":"NFR - Job/Service","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"AC23E211-928B-406E-9D09-D3FA175F58E3","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Service Jobs</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Job</b></td> \t<td style=\"width:15%;\" ><b>Scheduled/RealTime</b></td> \t<td style=\"width:65%;\"><b>Description</b></td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:65%;\"></td> </tr> </tbody></table></br> <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Scalability and Load Testing</b> - What are the highest workloads under which the system will still perform as expected?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Capacity</b> - What are your system’s storage requirements, today and in the future? How will your system scale up for increasing volume demands?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Feature","wiTypeGuid":"91EC4563-9489-4A95-B522-0560931BEB9B","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":false,"label":"NFR - Mobile","linkTypes":["Child"],"links":[{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"153CFF25-D9A1-4325-8B67-659215F882E2","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Authentication</b> - What type of Authentication is Used to authenticating the Users?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Authorization</b> - How the Users Roles, Groups and Claims are defined?! <ol Margin=\"0\">\t <li>Objective 2</li> </ol>  <b>Platforms Supported</b> - List of Platforms, Devices supported <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Platform</b></td> \t<td style=\"width:30%;\"><b>Devices</b></td> \t<td style=\"width:40%;\"><b>OS Versions</b></td></tr> <tr> \t<td >IOS-Mobile</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Android-Mobile</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >IOS-Tablet</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Android-Tablet</td> \t<td ></td> \t<td ></td> </tr> </tbody></table> </br>  <b>Themes Supported</b> - List of supported Themes <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Theme</b></td> \t<td style=\"width:30%;\"><b>Supported(Yes/No)</b></td> <tr> \t<td >Light</td> \t<td >Yes</td> </tr> <tr> \t<td >Dark</td> \t<td ></td> </tr> </tbody></table> </br>  <b>Orientation</b>  <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Orientation</b></td> \t<td style=\"width:30%;\"><b>Supported(Yes/No)</b></td> <tr> \t<td >Portrait</td> \t<td >Landscape</td> </tr> <tr> \t<td >Yes</td> \t<td ></td> </tr> </tbody></table> </br>  <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"Description","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Feature","wiTypeGuid":"E0F8317A-816B-4C4C-B00E-CC1EAD16C898","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"D32F85C1-F31B-4B87-B957-E820706CCFA4","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"Bug","linkTypes":[],"links":[],"props":[],"displayProps":[],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Bug","wiTypeGuid":"E16AD1CF-3C12-4969-AEC2-B350344335BD","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"props":[{"name":"Description","value":"<b>Business Objective</b>  <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Product Requirement</b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>","referenceName":"System.Description"}],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"Epic","wiTypeGuid":"4D33647B-5DF0-494C-BD2B-EFAE7D57CF9C","isGhostLink":false,"refName":null,"isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false},{"isRecursive":true,"label":"[Model]Diagram","linkTypes":["Child"],"links":[],"props":[],"displayProps":[{"name":"Description","label":"","referenceName":"System.Description","type":"Html"}],"inheritParentItemPropsCollection":[],"displayPropsNumbering":0,"wiType":"[Model]Diagram","wiTypeGuid":"5D6FDB5C-11DF-43A5-AAAF-81E11FCF7FBE","isGhostLink":false,"refName":"MR.Diagram","isInheritParentWiProp":false,"preferDefaultPropOverInheritParentWiProp":false}],"alternateLinkType":"","templateGuid":"8562398b-bd29-46a6-bd60-8a6a10c760cf","rootWI":"Document","numbering":0,"isGhostLink":false},"linkmodule":null,"saveastemplatedata":null,"documentversions":null,"fileContainsUniqueId":false,"areaPath":"Software Application Supp and Maintenance"}
+{
+  "smartdocsmetainfo": {
+    "mongoId": "00000000-0000-0000-0000-000000000000",
+    "uniqueid": "7b393b8b-4902-4e78-8920-4ba6542c8672",
+    "id": 147069,
+    "parentid": 0,
+    "parentpath": "",
+    "index": 0,
+    "parentindex": 0,
+    "children": null,
+    "identstring": null,
+    "level": 0,
+    "parenttypepath": "/",
+    "type": "Document",
+    "linktype": null,
+    "typeguid": "",
+    "refName": null,
+    "revisionId": 0,
+    "isGhostLink": false,
+    "isWiTypeChange": false,
+    "workItemTypeExistInTemplate": true
+  },
+  "template": {
+    "wiMappings": [
+      {
+        "isRecursive": false,
+        "label": "Epic",
+        "linkTypes": [
+          "Child"
+        ],
+        "links": [
+          {
+            "isRecursive": false,
+            "label": "Feature",
+            "linkTypes": [
+              "Child"
+            ],
+            "links": [
+              {
+                "isRecursive": true,
+                "label": "Functional Requirement",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [
+                  {
+                    "isRecursive": true,
+                    "label": "[Model]Diagram",
+                    "linkTypes": [
+                      "Child"
+                    ],
+                    "links": [],
+                    "props": [],
+                    "displayProps": [
+                      {
+                        "name": "Description",
+                        "label": "",
+                        "referenceName": "System.Description",
+                        "type": "Html"
+                      }
+                    ],
+                    "inheritParentItemPropsCollection": [],
+                    "displayPropsNumbering": 0,
+                    "wiType": "[Model]Diagram",
+                    "wiTypeGuid": "E7999410-C137-4E4B-9EC5-5B0007C88804",
+                    "isGhostLink": false,
+                    "refName": "MR.Diagram",
+                    "isInheritParentWiProp": false,
+                    "preferDefaultPropOverInheritParentWiProp": false
+                  }
+                ],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>",
+                    "referenceName": "System.Description"
+                  },
+                  {
+                    "name": "Priority",
+                    "value": "2",
+                    "referenceName": "Microsoft.VSTS.Common.Priority"
+                  },
+                  {
+                    "name": "Value Area",
+                    "value": "Business",
+                    "referenceName": "Microsoft.VSTS.Common.ValueArea"
+                  },
+                  {
+                    "name": "Triage",
+                    "value": "Pending",
+                    "referenceName": "Microsoft.VSTS.Common.Triage"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Requirement",
+                "wiTypeGuid": "0B9D7011-FCF4-4497-AC8D-BC688F56D2F9",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Basic Requirement",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol> </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframe</b>",
+                    "referenceName": "System.Description"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Requirement",
+                "wiTypeGuid": "7463E6BE-4D90-4542-83E8-26E70B66F684",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Change Request - Standard",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [
+                  {
+                    "isRecursive": true,
+                    "label": "Diagram",
+                    "linkTypes": [
+                      "Related",
+                      "Child"
+                    ],
+                    "links": [],
+                    "props": [],
+                    "displayProps": [
+                      {
+                        "name": "Description",
+                        "label": "",
+                        "referenceName": "System.Description",
+                        "type": "Html"
+                      }
+                    ],
+                    "inheritParentItemPropsCollection": [],
+                    "displayPropsNumbering": 0,
+                    "wiType": "Diagram",
+                    "wiTypeGuid": "88F0B0FF-CB3B-429A-8355-36DA95480F07",
+                    "isGhostLink": false,
+                    "refName": null,
+                    "isInheritParentWiProp": false,
+                    "preferDefaultPropOverInheritParentWiProp": false
+                  }
+                ],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>CR Objective</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr><td style=\"width:15%;\"><b>Current Implementation</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Proposed Change</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Complexity[Simple/Medium/Complex]</b></td><td  style=\"width:85%;\"></td></tr> </table> </br> <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>",
+                    "referenceName": "System.Description"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Change Request",
+                "wiTypeGuid": "1EF46713-7E1B-4045-94A7-03894048B582",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Change Request - Basic",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>CR Objective</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr><td style=\"width:15%;\"><b>Current Implementation</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Proposed Change</b></td><td  style=\"width:85%;\"></td></tr> <tr><td style=\"width:15%;\"><b>Complexity[Simple/Medium/Complex]</b></td><td  style=\"width:85%;\"></td></tr> </table>  </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframes</b>",
+                    "referenceName": "System.Description"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Change Request",
+                "wiTypeGuid": "34507B60-16D0-46E8-921B-42F6C7BC9A1A",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "[Model]Diagram",
+                "linkTypes": [
+                  "Related",
+                  "Child"
+                ],
+                "links": [],
+                "props": [],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "[Model]Diagram",
+                "wiTypeGuid": "E3566D48-10B1-49A4-875E-AF3E99653C04",
+                "isGhostLink": false,
+                "refName": "MR.Diagram",
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Bug",
+                "linkTypes": [],
+                "links": [],
+                "props": [],
+                "displayProps": [],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Bug",
+                "wiTypeGuid": "AC8A4BAF-0DB6-44EE-B98A-D14DAD97AE3F",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              }
+            ],
+            "props": [
+              {
+                "name": "Description",
+                "value": "<b>Business Challenge</b>  <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Feature description</b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>  <b>Business Value Add </b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>  <b>Dependencies</b>  <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Dependent System</b></td> \t<td style=\"width:10%;\" ><b>Details</b></td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:30%;\"></td> \t<td style=\"width:65%;\"></td> </tr> </tbody></table>",
+                "referenceName": "System.Description"
+              },
+              {
+                "name": "Priority",
+                "value": "2",
+                "referenceName": "Microsoft.VSTS.Common.Priority"
+              },
+              {
+                "name": "Triage",
+                "value": "Pending",
+                "referenceName": "Microsoft.VSTS.Common.Triage"
+              },
+              {
+                "name": "Value Area",
+                "value": "Business",
+                "referenceName": "Microsoft.VSTS.Common.ValueArea"
+              }
+            ],
+            "displayProps": [
+              {
+                "name": "Description",
+                "label": "",
+                "referenceName": "System.Description",
+                "type": "Html"
+              }
+            ],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "Feature",
+            "wiTypeGuid": "3F272BAB-C408-40D1-A5E6-E8D0D6481757",
+            "isGhostLink": false,
+            "refName": null,
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          },
+          {
+            "isRecursive": false,
+            "label": "NFR - Web",
+            "linkTypes": [
+              "Child"
+            ],
+            "links": [
+              {
+                "isRecursive": true,
+                "label": "[Model]Diagram",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "[Model]Diagram",
+                "wiTypeGuid": "289B35B3-2DBD-4419-BB2D-A9AC646D8DB1",
+                "isGhostLink": false,
+                "refName": "MR.Diagram",
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Basic Requirement",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol> </br> <b>Business Requirements/Acceptance Criteria</b> <ol  Margin=\"0\">\t <li>Acceptance Criteria 1</li> <li>Acceptance Criteria 2</li> </ol>  <b>Wireframe</b>",
+                    "referenceName": "System.Description"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Requirement",
+                "wiTypeGuid": "7463E6BE-4D90-4542-83E8-26E70B66F684",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              },
+              {
+                "isRecursive": true,
+                "label": "Functional Requirement",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [
+                  {
+                    "isRecursive": true,
+                    "label": "[Model]Diagram",
+                    "linkTypes": [
+                      "Child"
+                    ],
+                    "links": [],
+                    "props": [],
+                    "displayProps": [
+                      {
+                        "name": "Description",
+                        "label": "",
+                        "referenceName": "System.Description",
+                        "type": "Html"
+                      }
+                    ],
+                    "inheritParentItemPropsCollection": [],
+                    "displayPropsNumbering": 0,
+                    "wiType": "[Model]Diagram",
+                    "wiTypeGuid": "48F38227-5629-4D84-AA7B-D60B61BFCDDF",
+                    "isGhostLink": false,
+                    "refName": "MR.Diagram",
+                    "isInheritParentWiProp": false,
+                    "preferDefaultPropOverInheritParentWiProp": false
+                  }
+                ],
+                "props": [
+                  {
+                    "name": "Description",
+                    "value": "<b>Objective of Requirement</b> <ol Margin=\"0\">\t <li>Objective 1</li> <li>Objective 2</li> </ol>  <b>Business Logics/Acceptance Criteria</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Event</b></td> \t<td style=\"width:40%;\" ><b>Business Logics</b></td> \t<td style=\"width:40%;\"><b>Validation</b></td> </tr> <tr style=\"1px solid black;\">     <td colspan=\"4\">Screen/Job Name</td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:40%;\"></td> \t<td style=\"width:40%;\"></td> </tr> </tbody></table></br>  <b>Requirement/Fields Specifications</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody>  <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Field</b></td> \t<td style=\"width:10%;\" ><b>Control Type</b></td> \t<td style=\"width:5%;\"><b>Edit</b></td> \t<td style=\"width:5%;\"><b>Max Length</b></td> \t<td style=\"width:15%;\"><b>Values</b></td> \t<td style=\"width:10%;\"><b>Default Value</b></td> \t<td style=\"width:35%;\"><b>Validation</b></td> </tr> <tr>     <td colspan=\"8\" >Screen/Job Name</td> </tr> <tr> \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:5%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:10%;\"></td> \t<td style=\"width:30%;\"></td> </tr> </tbody></table> </br>  <b>Roles and Claims</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"> <tr> \t<td style=\"width:13%;\"><b>Claims Name</b></td> \t<td style=\"width:25%;\"><b>Suggested Roles</b></td> \t<td style=\"width:62%;\"><b>Claim Description</b></td></tr> <tr> \t<td style=\"width:13%;\"></td> \t<td style=\"width:25%;\"></td> \t<td style=\"width:62%;\"></td> </tr> </table> </br>  <b>Wireframes</b>",
+                    "referenceName": "System.Description"
+                  }
+                ],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "Requirement",
+                "wiTypeGuid": "0B9D7011-FCF4-4497-AC8D-BC688F56D2F9",
+                "isGhostLink": false,
+                "refName": null,
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              }
+            ],
+            "props": [
+              {
+                "name": "Description",
+                "value": "<b>Authentication</b> - What type of Authentication is Used to authenticating the Users?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Authorization</b> - How the Users Roles, Groups and Claims are defined?! <ol Margin=\"0\">\t <li>Objective 2</li> </ol>  <b>Environment</b> - What types of environments will the system be expected to perform within?! Like Browsers to be supported. <ol Margin=\"0\">\t <li>Objective 1</li> </ol> <table style=\"width:100%;border:1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Browser</b></td> \t<td style=\"width:30%;\"><b>Is Supported(Y/N)</b></td> \t<td style=\"width:40%;\"><b>Min Version to Support</b></td></tr> <tr> \t<td >Internet Explorer</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Edge</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Chrome</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Safari</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Firefox</td> \t<td ></td> \t<td ></td> </tr> </tbody></table> </br>  <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Scalability and Load Testing</b> - What are the highest workloads under which the system will still perform as expected?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Capacity</b> - What are your system’s storage requirements, today and in the future? How will your system scale up for increasing volume demands?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>",
+                "referenceName": "System.Description"
+              }
+            ],
+            "displayProps": [
+              {
+                "name": "Description",
+                "label": "",
+                "referenceName": "System.Description",
+                "type": "Html"
+              }
+            ],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "Feature",
+            "wiTypeGuid": "44A21045-9FBF-4C25-834F-F4E790565AF9",
+            "isGhostLink": false,
+            "refName": null,
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          },
+          {
+            "isRecursive": false,
+            "label": "NFR - Job/Service",
+            "linkTypes": [
+              "Child"
+            ],
+            "links": [
+              {
+                "isRecursive": true,
+                "label": "[Model]Diagram",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "[Model]Diagram",
+                "wiTypeGuid": "AC23E211-928B-406E-9D09-D3FA175F58E3",
+                "isGhostLink": false,
+                "refName": "MR.Diagram",
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              }
+            ],
+            "props": [
+              {
+                "name": "Description",
+                "value": "<b>Service Jobs</b> <table style=\"width:100%;border:1px solid black;padding:4px;\"><tbody> <tr > \t<td style=\"width:5%;\" ><b>#</b></td> \t<td style=\"width:15%;\" ><b>Job</b></td> \t<td style=\"width:15%;\" ><b>Scheduled/RealTime</b></td> \t<td style=\"width:65%;\"><b>Description</b></td> </tr> <tr style=\"1px solid black;\" > \t<td style=\"width:5%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:15%;\"></td> \t<td style=\"width:65%;\"></td> </tr> </tbody></table></br> <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Scalability and Load Testing</b> - What are the highest workloads under which the system will still perform as expected?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Capacity</b> - What are your system’s storage requirements, today and in the future? How will your system scale up for increasing volume demands?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>",
+                "referenceName": "System.Description"
+              }
+            ],
+            "displayProps": [
+              {
+                "name": "Description",
+                "label": "",
+                "referenceName": "System.Description",
+                "type": "Html"
+              }
+            ],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "Feature",
+            "wiTypeGuid": "91EC4563-9489-4A95-B522-0560931BEB9B",
+            "isGhostLink": false,
+            "refName": null,
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          },
+          {
+            "isRecursive": false,
+            "label": "NFR - Mobile",
+            "linkTypes": [
+              "Child"
+            ],
+            "links": [
+              {
+                "isRecursive": true,
+                "label": "[Model]Diagram",
+                "linkTypes": [
+                  "Child"
+                ],
+                "links": [],
+                "props": [],
+                "displayProps": [
+                  {
+                    "name": "Description",
+                    "label": "",
+                    "referenceName": "System.Description",
+                    "type": "Html"
+                  }
+                ],
+                "inheritParentItemPropsCollection": [],
+                "displayPropsNumbering": 0,
+                "wiType": "[Model]Diagram",
+                "wiTypeGuid": "153CFF25-D9A1-4325-8B67-659215F882E2",
+                "isGhostLink": false,
+                "refName": "MR.Diagram",
+                "isInheritParentWiProp": false,
+                "preferDefaultPropOverInheritParentWiProp": false
+              }
+            ],
+            "props": [
+              {
+                "name": "Description",
+                "value": "<b>Authentication</b> - What type of Authentication is Used to authenticating the Users?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Authorization</b> - How the Users Roles, Groups and Claims are defined?! <ol Margin=\"0\">\t <li>Objective 2</li> </ol>  <b>Platforms Supported</b> - List of Platforms, Devices supported <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Platform</b></td> \t<td style=\"width:30%;\"><b>Devices</b></td> \t<td style=\"width:40%;\"><b>OS Versions</b></td></tr> <tr> \t<td >IOS-Mobile</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Android-Mobile</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >IOS-Tablet</td> \t<td ></td> \t<td ></td> </tr> <tr> \t<td >Android-Tablet</td> \t<td ></td> \t<td ></td> </tr> </tbody></table> </br>  <b>Themes Supported</b> - List of supported Themes <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Theme</b></td> \t<td style=\"width:30%;\"><b>Supported(Yes/No)</b></td> <tr> \t<td >Light</td> \t<td >Yes</td> </tr> <tr> \t<td >Dark</td> \t<td ></td> </tr> </tbody></table> </br>  <b>Orientation</b>  <table style=\"width:100%;1px solid black;margin:2px;\"><tbody> <tr> \t<td style=\"width:30%;\"><b>Orientation</b></td> \t<td style=\"width:30%;\"><b>Supported(Yes/No)</b></td> <tr> \t<td >Portrait</td> \t<td >Landscape</td> </tr> <tr> \t<td >Yes</td> \t<td ></td> </tr> </tbody></table> </br>  <b>Performance</b> - How quickly does the system respond to users’ actions, or how long does a user wait for a specific operation to happen?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Security</b> - Does your product store or transmit sensitive information?! Does your IT department require adherence to specific standards?! What security best practices are used in your industry?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Reliability and Availability</b> - What is the critical failure time under normal usage?! Does a user need access to this all hours of every day?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Maintainability and Manageability</b> - How much time does it take to fix components, and how easily can an administrator manage the system?! Under this umbrella, you could also define Recoverability and Serviceability. <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Regulatory</b> - Are there requirements you need to satisfy for compliance?! <ol Margin=\"0\">\t <li>Objective 1</li> </ol>",
+                "referenceName": "System.Description"
+              }
+            ],
+            "displayProps": [
+              {
+                "name": "Description",
+                "label": "Description",
+                "referenceName": "System.Description",
+                "type": "Html"
+              }
+            ],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "Feature",
+            "wiTypeGuid": "E0F8317A-816B-4C4C-B00E-CC1EAD16C898",
+            "isGhostLink": false,
+            "refName": null,
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          },
+          {
+            "isRecursive": true,
+            "label": "[Model]Diagram",
+            "linkTypes": [
+              "Child"
+            ],
+            "links": [],
+            "props": [],
+            "displayProps": [
+              {
+                "name": "Description",
+                "label": "",
+                "referenceName": "System.Description",
+                "type": "Html"
+              }
+            ],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "[Model]Diagram",
+            "wiTypeGuid": "D32F85C1-F31B-4B87-B957-E820706CCFA4",
+            "isGhostLink": false,
+            "refName": "MR.Diagram",
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          },
+          {
+            "isRecursive": true,
+            "label": "Bug",
+            "linkTypes": [],
+            "links": [],
+            "props": [],
+            "displayProps": [],
+            "inheritParentItemPropsCollection": [],
+            "displayPropsNumbering": 0,
+            "wiType": "Bug",
+            "wiTypeGuid": "E16AD1CF-3C12-4969-AEC2-B350344335BD",
+            "isGhostLink": false,
+            "refName": null,
+            "isInheritParentWiProp": false,
+            "preferDefaultPropOverInheritParentWiProp": false
+          }
+        ],
+        "props": [
+          {
+            "name": "Description",
+            "value": "<b>Business Objective</b>  <ol Margin=\"0\">\t <li>Objective 1</li> </ol>  <b>Product Requirement</b>  <ol Margin=\"0\">\t <li>Req 1</li> </ol>",
+            "referenceName": "System.Description"
+          }
+        ],
+        "displayProps": [
+          {
+            "name": "Description",
+            "label": "",
+            "referenceName": "System.Description",
+            "type": "Html"
+          }
+        ],
+        "inheritParentItemPropsCollection": [],
+        "displayPropsNumbering": 0,
+        "wiType": "Epic",
+        "wiTypeGuid": "4D33647B-5DF0-494C-BD2B-EFAE7D57CF9C",
+        "isGhostLink": false,
+        "refName": null,
+        "isInheritParentWiProp": false,
+        "preferDefaultPropOverInheritParentWiProp": false
+      },
+      {
+        "isRecursive": true,
+        "label": "[Model]Diagram",
+        "linkTypes": [
+          "Child"
+        ],
+        "links": [],
+        "props": [],
+        "displayProps": [
+          {
+            "name": "Description",
+            "label": "",
+            "referenceName": "System.Description",
+            "type": "Html"
+          }
+        ],
+        "inheritParentItemPropsCollection": [],
+        "displayPropsNumbering": 0,
+        "wiType": "[Model]Diagram",
+        "wiTypeGuid": "5D6FDB5C-11DF-43A5-AAAF-81E11FCF7FBE",
+        "isGhostLink": false,
+        "refName": "MR.Diagram",
+        "isInheritParentWiProp": false,
+        "preferDefaultPropOverInheritParentWiProp": false
+      }
+    ],
+    "alternateLinkType": "",
+    "templateGuid": "8562398b-bd29-46a6-bd60-8a6a10c760cf",
+    "rootWI": "Document",
+    "numbering": 0,
+    "isGhostLink": false
+  },
+  "linkmodule": null,
+  "saveastemplatedata": null,
+  "documentversions": null,
+  "fileContainsUniqueId": false,
+  "areaPath": "Software Application Supp and Maintenance"
+}
