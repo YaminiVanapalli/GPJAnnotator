@@ -113,6 +113,27 @@
         "isGhostLink": false,
         "isWiTypeChange": false,
         "workItemTypeExistInTemplate": true
+      },
+      {
+        "mongoId": "00000000-0000-0000-0000-000000000000",
+        "uniqueid": "9e2cafa9-311d-480d-8d1e-c05f2c7c754e",
+        "id": 147078,
+        "parentid": 147069,
+        "parentpath": "/147069",
+        "index": 2,
+        "parentindex": 0,
+        "children": null,
+        "identstring": "2",
+        "level": 1,
+        "parenttypepath": "/Epic",
+        "type": "Epic",
+        "linktype": "Child",
+        "typeguid": "4D33647B-5DF0-494C-BD2B-EFAE7D57CF9C",
+        "refName": null,
+        "revisionId": 0,
+        "isGhostLink": false,
+        "isWiTypeChange": false,
+        "workItemTypeExistInTemplate": true
       }
     ],
     "identstring": null,
