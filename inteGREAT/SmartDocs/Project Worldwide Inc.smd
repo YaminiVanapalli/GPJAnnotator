@@ -46,6 +46,27 @@
                 "isGhostLink": false,
                 "isWiTypeChange": false,
                 "workItemTypeExistInTemplate": true
+              },
+              {
+                "mongoId": "00000000-0000-0000-0000-000000000000",
+                "uniqueid": "32769ed2-56fe-4b8e-8e9b-bbe5b97af249",
+                "id": 148032,
+                "parentid": 147072,
+                "parentpath": "/147069/147070/147072",
+                "index": 2,
+                "parentindex": 1,
+                "children": null,
+                "identstring": "1.1.2",
+                "level": 3,
+                "parenttypepath": "/Epic/Feature/Requirement",
+                "type": "Requirement",
+                "linktype": "Child",
+                "typeguid": "7463E6BE-4D90-4542-83E8-26E70B66F684",
+                "refName": null,
+                "revisionId": 0,
+                "isGhostLink": false,
+                "isWiTypeChange": false,
+                "workItemTypeExistInTemplate": true
               }
             ],
             "identstring": "1.1",
