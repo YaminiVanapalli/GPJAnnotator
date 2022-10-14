@@ -1,0 +1,889 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./Graphic%20Importer%20Process_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="./Graphic%20Importer%20Process_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>1</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Laura Hanna</o:Author>
+  <o:LastAuthor>Steven A. Westerholm</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>646</o:TotalTime>
+  <o:LastPrinted>2001-12-03T15:26:00Z</o:LastPrinted>
+  <o:Created>2001-12-03T17:11:00Z</o:Created>
+  <o:LastSaved>2001-12-03T17:41:00Z</o:LastSaved>
+  <o:Pages>8</o:Pages>
+  <o:Words>1696</o:Words>
+  <o:Characters>9669</o:Characters>
+  <o:Company>George P. Johnson Company</o:Company>
+  <o:Lines>80</o:Lines>
+  <o:Paragraphs>19</o:Paragraphs>
+  <o:CharactersWithSpaces>11874</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-header:url("./Graphic%20Importer%20Process_files/header.htm") h1;
+	mso-footer:url("./Graphic%20Importer%20Process_files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:559101010;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1818166660 67698689 1870034730 15910464 791725784 -194997306 -1671381938 -1504799094 -820089962 -1299040992;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:560791582;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1818166660 67698689 -928344936 878367050 -1401897274 565858878 -1810838470 1109017946 -501429652 1144698612;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1443450876;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1818166660 67698689 67698703 -1 -1 -1 -1 -1 -1 -1;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1780678990;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1818166660 67698703 67698703 -1 -1 -1 -1 -1 -1 -1;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1057"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h2><a href="#Posting"><span style='mso-bookmark:Posting'>Posting
+Graphics</span><span style='mso-bookmark:Posting'></span></a><span
+style='mso-bookmark:Posting'></span></h2>
+
+<h2><a href="#Notify"><span style='mso-bookmark:Posting'>Notification of Posted
+Files</span></a></h2>
+
+<h2><a href="#Editing"><span style='mso-bookmark:Posting'>Editing Existing Graphic
+Files</span></a></h2>
+
+<p class=MsoNormal><span style='mso-bookmark:Posting'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><span style='mso-bookmark:Posting'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></h2>
+
+<h2><span style='mso-bookmark:Posting'><a name=Posting>Posting Graphics</a></span></h2>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;mso-list:l3 level1 lfo2;
+tab-stops:.25in list .5in'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Login to the GPJ Annotator by entering your ID and password and
+click “<i style='mso-bidi-font-style:normal'>Go!</i>”</p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:215.25pt;
+ height:129.75pt' fillcolor="window">
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=287 height=173
+src="./Graphic%20Importer%20Process_files/image002.jpg" v:shapes="_x0000_i1025"><![endif]><br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;mso-list:l3 level1 lfo2;
+tab-stops:list .25in .5in'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Enter the Graphic Importer module of the Annotator application
+by clicking the “<i style='mso-bidi-font-style:normal'>Graphic Importer</i>”
+option.</p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1026" type="#_x0000_t75" style='width:216.75pt;height:129.75pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=289 height=173
+src="./Graphic%20Importer%20Process_files/image004.jpg" v:shapes="_x0000_i1026"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=3 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>To add
+     a new file into the Graphic Delivery Tool click on the “<i
+     style='mso-bidi-font-style:normal'>Add a Graphic…” </i>tab and select the
+     appropriate <u>client</u> drive in the “<i style='mso-bidi-font-style:
+     normal'>Look In:</i>” list box.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:264pt;height:198pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=352 height=264
+src="./Graphic%20Importer%20Process_files/image006.jpg" v:shapes="_x0000_i1027"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>NOTE:<span style="mso-spacerun: yes">  </span>The
+following instructions are for adding files one at a time.<span
+style="mso-spacerun: yes">  </span>The Graphic Importer also allows you to add
+files in multiple batches.<span style="mso-spacerun: yes">  </span>The
+differences are described beginning in section 15.<br>
+<br clear=all style='mso-special-character:line-break;page-break-before:always'>
+</p>
+
+<ol style='margin-top:0in' start=4 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Navigate
+     to the folder in which the file is stored and select the file to be
+     imported.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:264pt;height:198pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=352 height=264
+src="./Graphic%20Importer%20Process_files/image008.jpg" v:shapes="_x0000_i1028"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>A small image of the selected file will display on
+the right had side. The path and description (title) of the file will
+automatically populate for you.<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p class=MsoBodyTextIndent style='text-indent:-.25in;mso-list:l3 level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>If you know the project (or job) number click the “<i
+style='mso-bidi-font-style:normal'>Proj No…</i>” button.</p>
+
+<p class=MsoBodyTextIndent align=center style='margin-left:.25in;text-align:
+center'><!--[if gte vml 1]><v:shape id="_x0000_i1029" type="#_x0000_t75"
+ style='width:130.5pt;height:98.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=174 height=131
+src="./Graphic%20Importer%20Process_files/image010.jpg" v:shapes="_x0000_i1029"><![endif]></p>
+
+<p class=MsoBodyTextIndent align=center style='margin-left:.25in;text-align:
+center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>At this point there are two options for entering the
+Project Number.<span style="mso-spacerun: yes">  </span>If you are confident
+you know the number, type it in the textbox provided, and click “<i>OK</i>” and
+the associated Client will automatically be selected in the “<i>Client:</i>”
+listbox.<span style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoBodyTextIndent><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>If you wish, you can check the “<i>Get List of
+Active Project Numbers</i>” option and the textbox will become a drop-down list
+containing all the current active project numbers in JD Edwards.<span
+style="mso-spacerun: yes">  </span>NOTE:<span style="mso-spacerun: yes"> 
+</span>If this option is checked, future selections of the “<i>Proj No…</i>”
+button will force the Active Project Numbers list to populate, which may take a
+little longer.<span style="mso-spacerun: yes">  </span>De-selecting the
+checkbox, will return the textbox option.</p>
+
+<p class=MsoBodyTextIndent align=center style='margin-left:.25in;text-align:
+center'><!--[if gte vml 1]><v:shape id="_x0000_i1030" type="#_x0000_t75"
+ style='width:130.5pt;height:98.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=174 height=131
+src="./Graphic%20Importer%20Process_files/image012.jpg" v:shapes="_x0000_i1030"><![endif]></p>
+
+<p class=MsoBodyTextIndent>Upon selection of a Project Number from the provided
+list, a prompt will inform you of the associated Client and Show.<span
+style="mso-spacerun: yes">  </span>If this is correct, click “<i>OK</i>” and
+the associated Client will automatically be selected in the “<i>Client:</i>”
+listbox.<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<ol style='margin-top:0in' start=6 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Set
+     File Type, Graphic Status &amp; Graphic Type:</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1031" type="#_x0000_t75" style='width:229.5pt;height:197.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image013.png" o:title=""
+  cropbottom="21845f" cropleft="27306f"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=306 height=263
+src="./Graphic%20Importer%20Process_files/image014.jpg" v:shapes="_x0000_i1031"><![endif]><br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p class=MsoNormal style='margin-left:.5in'>Select whether the file is a “<i
+style='mso-bidi-font-style:normal'>New</i>” or “<i style='mso-bidi-font-style:
+normal'>Replacement</i>” file. “<i style='mso-bidi-font-style:normal'>New</i>”
+means that this file has not yet been imported into the tool. “<i
+style='mso-bidi-font-style:normal'>Replacement</i>” means that this file is
+replacing a file that has already been imported – it most likely is a different
+version of a file.<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<ol style='margin-top:0in' start=7 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>If you
+     selected “<i style='mso-bidi-font-style:normal'>New</i>”, set the “<i>Graphic
+     Status:</i>” option.</li>
+</ol>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l1 level1 lfo8;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>“<i>Draft</i>” status means that the file posted has
+not been reviewed and approved by the Team.<span style="mso-spacerun: yes"> 
+</span>Draft files are only available for internal GPJ viewing.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l1 level1 lfo8;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>“<i>Released</i>” status means that the file has been
+approved for Client, or non-GPJ, viewing, but has not yet been approved for
+production.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l1 level1 lfo8;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>“<i>Approved</i>” status means that the file has been
+approved for production by the Team and will be available for viewing by all
+Annotator users.</p>
+
+<p class=MsoNormal style='margin-left:.25in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=8 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Set
+     the “<i>Graphic Type:</i>” option.</li>
+</ol>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo11;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>A “<i>Graphic File</i>” is an image file without any
+layout information, or the titleblock associated with a layout file.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo11;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>A “<i>Photo File</i>” a digital photo.<span
+style="mso-spacerun: yes">  </span>These may be onsite photos taken at a show,
+or photos of individual displays.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo11;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>A “<i>Layout</i>” file is a graphic file containing
+layout information.<span style="mso-spacerun: yes">  </span>Traditionally,
+these contain a titleblock.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo11;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>A “<i>Presentation</i>”-type file may be a computer
+rendering, or a proposal.</p>
+
+<p class=MsoNormal style='margin-left:.25in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=9 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Confirm
+     the client name, and the description of the file. The description should
+     follow the GPJ standard file naming convention. If everything appears to
+     be OK, click the “<i style='mso-bidi-font-style:normal'>Add to Database</i>”
+     button.</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>After
+     selecting “<i>Add to Database</i>”, a prompt (in red) will alert you that
+     the file was added to the database.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1032" type="#_x0000_t75" style='width:318pt;height:238.5pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=424 height=318
+src="./Graphic%20Importer%20Process_files/image016.jpg" v:shapes="_x0000_i1032"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>NOTE:<span style="mso-spacerun: yes">  </span>After
+the first database add of a Graphic Importer session, the interface will change
+to display the Graphic Assignment options.<span style="mso-spacerun: yes"> 
+</span>This is where you can attach a graphic file to either a Show, or an
+Element in a Client’s Inventory.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=11 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>If you
+     selected “<i style='mso-bidi-font-style:normal'>Replacement</i>”, the “<i
+     style='mso-bidi-font-style:normal'>Existing Graphics…</i>” tab will come
+     into focus and you will need to select the file to be replaced. Pick the
+     client name from within the “<i style='mso-bidi-font-style:normal'>Client:</i>”
+     list box.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1033" type="#_x0000_t75" style='width:306.75pt;height:230.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=409 height=307
+src="./Graphic%20Importer%20Process_files/image018.jpg" v:shapes="_x0000_i1033"><![endif]></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=12 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>The
+     list of files available for that client will display. Drill down until you
+     find the file to replace. Select the name of the file to be replaced and
+     click the “<i style='mso-bidi-font-style:normal'>Update Database</i>”
+     button on the right hand side.<span style="mso-spacerun: yes">  </span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>NOTE:<span style="mso-spacerun:
+yes">  </span>Be aware that if the graphic file you are replacing was a
+different “<i>Graphic Type</i>” than the new file, the “<i>Graphic Type</i>”
+option will change to the formers type.<span style="mso-spacerun: yes"> 
+</span>This is also true for the Client.<span style="mso-spacerun: yes"> 
+</span>Be certain to review the input prior to clicking “<i>Update Database</i>”.</p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1034" type="#_x0000_t75" style='width:306.75pt;height:230.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=409 height=307
+src="./Graphic%20Importer%20Process_files/image020.jpg" v:shapes="_x0000_i1034"><![endif]><br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<ol style='margin-top:0in' start=13 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>After
+     selecting “<i>Update Database</i>”, the interface will notify you of the
+     update as shown in section 10, above.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=14 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>To
+     confirm that the file has been added or replaced in the database click on
+     the “<i style='mso-bidi-font-style:normal'>Database Graphic</i>” tab.
+     Select the client name from the “<i style='mso-bidi-font-style:normal'>Client</i>:”
+     list box and navigate to the current month/year. You should see the file
+     name appear in the list.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=15 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'><b>Importing
+     Graphic Files in Multi-Batches.<span style="mso-spacerun: yes">  </span></b>The
+     process to post graphic files in multi-batches is nearly identical to the
+     procedure described above with a few important qualifications.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>From the “<i>Add a Graphic…</i>”
+tab, locate your folder containing the files you wish to import.<span
+style="mso-spacerun: yes">  </span>Using Windows-standard selection options,
+highlight all the files you wish to import.<span style="mso-spacerun: yes"> 
+</span>Note that only the last one selected will appear in the viewer.</p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1035" type="#_x0000_t75" style='width:300pt;height:225pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=400 height=300
+src="./Graphic%20Importer%20Process_files/image022.jpg" v:shapes="_x0000_i1035"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=16 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Set
+     the “<i>Graphic Status:</i>” and the “<i>Graphic Type:</i>” options,
+     noting that all the imported files must be consistent in Status and Type.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=17 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Set
+     the “<i>Client:</i>” either by selecting from the drop-down list, or by
+     entering the Project Number from the “<i>Proj No…</i>” provided menu.<span
+     style="mso-spacerun: yes">  </span>Remember, all the highlighted files
+     will be associated to this one selected Client.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=18 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>When
+     using the multiple entry option, the “<i>Desc:</i>” value will be dictated
+     by each of the individual file’s names.<span style="mso-spacerun: yes"> 
+     </span>If you change the “<i>Desc:</i>” textbox, only the first file will
+     be affected.<span style="mso-spacerun: yes">  </span>In this situation, it
+     is important to incorporate the GPJ standard file naming convention.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=19 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Select
+     “<i>Add to Database</i>” to import all the select files.</li>
+</ol>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1036" type="#_x0000_t75" style='width:300pt;height:225pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=400 height=300
+src="./Graphic%20Importer%20Process_files/image024.jpg" v:shapes="_x0000_i1036"><![endif]></p>
+
+<p class=MsoNormal style='margin-left:.5in'>A prompt in red will alert you as
+to how many files were added to the database.<span style="mso-spacerun: yes"> 
+</span>To confirm the add, you can access the “<i>Existing Graphics…</i>” tab,
+and path to the correct folder to verify they were added.</p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2><a NAME="Notify">Notification of Posted Files</a></h2>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=20 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>Once a
+     Graphic File has been added to the Client’s database of Graphics, a
+     notification of its availability must be made before it will be viewable
+     in the GPJ Annotator.<span style="mso-spacerun: yes">  </span>As shown
+     along the bottom of the menu in the previous screen shot, the “<i>Notify…</i>”
+     button becomes enabled once a file has been posted.<span
+     style="mso-spacerun: yes">  </span>Selecting “<i>Notify…</i>” brings up
+     the following menu.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1037" type="#_x0000_t75" style='width:295.5pt;height:270.75pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=394 height=361
+src="./Graphic%20Importer%20Process_files/image026.jpg" v:shapes="_x0000_i1037"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.5in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>This interface will display all the posted graphic
+files that are waiting for notification, not just the files posted by you. </p>
+
+<p class=MsoBodyTextIndent><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyTextIndent>NOTE:<span style="mso-spacerun: yes">  </span>If you
+go to exit the Graphics Importer, and have posted Graphics to the Annotator,
+without sending out a notification, you will receive the following prompt reminding
+you of the existence of non-notified files.</p>
+
+<p class=MsoBodyTextIndent align=center style='margin-left:.25in;text-align:
+center'><!--[if gte vml 1]><v:shape id="_x0000_i1038" type="#_x0000_t75"
+ style='width:269.25pt;height:62.25pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=359 height=83
+src="./Graphic%20Importer%20Process_files/image028.jpg" v:shapes="_x0000_i1038"><![endif]></p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>“<i>Yes</i>” takes you to the
+interface, “<i>No</i>” allows you to exit, but you, and other posters, will be
+reminded during future sessions until a notification is sent out.<span
+style="mso-spacerun: yes">  </span>Also, remember the files will not be available
+for viewing until the notification occurs.</p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=21 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>From
+     the “<i>Select Graphic Files by Client:</i>”, choose the graphic Client
+     whose files you will be notifying.<span style="mso-spacerun: yes"> 
+     </span>Once chosen, a list of all their non-notified files will populate
+     in the “<i>Graphic Files:</i>” listbox, based on the current additional
+     filters.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1039" type="#_x0000_t75" style='width:297pt;height:271.5pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=396 height=362
+src="./Graphic%20Importer%20Process_files/image030.jpg" v:shapes="_x0000_i1039"><![endif]></p>
+
+<p class=MsoHeader style='tab-stops:.5in center 3.0in right 6.0in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=22 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>In
+     order to easily group notification files use the “<i>Additional Filters:</i>”
+     options.<span style="mso-spacerun: yes">  </span>By checking the “<i>Filter
+     by User:</i>” option, you can select your, or another users, name to
+     filter the graphics list to only include files posted by you.<span
+     style="mso-spacerun: yes">  </span>Further filters include an option to “<i>Filter
+     by Status:</i>”.<span style="mso-spacerun: yes">  </span>These filters
+     provide the ability to select only <i>Draft</i>, <i>Released</i> or <i>Approved</i>
+     files, or any combination of the three.<span style="mso-spacerun: yes"> 
+     </span>Ultimately, the “<i>Graphics List:</i>” files can be individually
+     checked, or unchecked.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=23 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>In
+     order to complete the posting process, it is necessary to have had a
+     Client Email Notification Team setup in the Annotator.<span
+     style="mso-spacerun: yes">  </span>If no Team has been setup, the “<i>Notification</i>”
+     section of the interface will be disabled.<span style="mso-spacerun:
+     yes">  </span>In this situation, contact the A/E and have them arrange to
+     have a Team created.<span style="mso-spacerun: yes">  </span>It is a
+     simple process to setup the Team, but it should be initiated by the A/E.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=24 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>If an
+     Email Notification Team has been set in the Annotator, the Team associated
+     with your “<i>Client:</i>” selection will populate in the “<i>Notification</i>”
+     section.<span style="mso-spacerun: yes">  </span>The Team members setup as
+     Graphics Mandatory Recipients (those who will automatically receive
+     notifications of all newly posted Graphics, Comments and Annotations) will
+     be pre-selected, or checked. <span style="mso-spacerun: yes"> </span>These
+     Team members cannot be un-selected.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=25 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>If any
+     “<i>Client Users</i>” (non-GPJ personnel) have been setup with Annotator
+     access for the selected “<i>Client:</i>”, this users will display in the “<i>Client
+     Users:</i>” listbox.<span style="mso-spacerun: yes">  </span>If checked,
+     these Client Users will be alerted of “<i>Released</i>” and “<i>Approved</i>”
+     graphics only.<span style="mso-spacerun: yes">  </span>A ”<i>Draft</i>”
+     graphic is intended for internal viewing only.<span style="mso-spacerun:
+     yes">  </span>Even if a Client User is setup as a Graphics Mandatory
+     Recipient for an Email Notification Team, they will not be notified of “<i>Draft</i>”
+     postings.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=26 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Additional
+     Comments:</i>” can be added in the provided textbox.<span
+     style="mso-spacerun: yes">  </span>Any comments entered here will be
+     included in the automated email to all those checked in either the “<i>Email
+     Notification Team</i>” listbox, or the “<i>Client Users</i>” listbox.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=27 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>To
+     verify the contents of the outgoing email as correct, click on the “<i>Preview
+     Email Notification…</i>” button, to review the outgoing message.<span
+     style="mso-spacerun: yes">  </span>Also, if you are not a member of the
+     Email Notification Team, you may check the option to send yourself a copy
+     of the notification for your records.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1040" type="#_x0000_t75" style='width:297pt;height:253.5pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=396 height=338
+src="./Graphic%20Importer%20Process_files/image032.jpg" v:shapes="_x0000_i1040"><![endif]></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=28 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>The
+     screen below shows a sample email notification.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1041" type="#_x0000_t75" style='width:324pt;height:249pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=432 height=332
+src="./Graphic%20Importer%20Process_files/image034.jpg" v:shapes="_x0000_i1041"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2><a NAME="Editing">Editing Existing Graphic Files</a></h2>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=29 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>After
+     opening a file from the “<i>Existing Graphics…</i>” tab, there is a
+     variety of edit options available when you select the “<i>Options…</i>”
+     button.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1042" type="#_x0000_t75" style='width:300.75pt;height:226.5pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image035.png" o:title=""
+  croptop="7209f" cropbottom="7209f" cropleft="7373f" cropright="7188f"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=401 height=302
+src="./Graphic%20Importer%20Process_files/image036.jpg" v:shapes="_x0000_i1042"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=30 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Rename
+     Graphic</i>” is a single-selection only option; it will only allow you to
+     edit the name of the current file.<span style="mso-spacerun: yes"> 
+     </span>Once selected, the file name becomes editable, and upon completion
+     (hitting the &lt;enter&gt; key) the revised name is saved to the database.</li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=31 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Delete
+     Selected Graphics</i>” supports multi-select.<span style="mso-spacerun:
+     yes">  </span>All files highlighted will be either deleted or de-activated
+     upon selection.<span style="mso-spacerun: yes">  </span></li>
+</ol>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo35;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>If a file is attached to any Shows where the Show open
+date is before ‘today’, the file will be de-activated.<span
+style="mso-spacerun: yes">  </span>To be de-activated means it is no longer
+available to attach to a Show or to an Element in a Client’s Inventory, but the
+file will continue to be viewable when accessed from either the “Active Show
+Graphics…” tab or the “Show Season…” tab in the Annotator.<span
+style="mso-spacerun: yes">  </span>If this de-activated file was attached to
+any future Shows, it will be detached.</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l2 level1 lfo35;
+tab-stops:list .75in'><![if !supportLists]><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>If the file has not been attached to any Shows, which
+opened prior to ‘today’, then the file is truly deleted, and detached from all
+Shows and Elements in the Inventory.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>NOTE:<span style="mso-spacerun:
+yes">  </span>“<i>Delete Selected Graphics</i>” works differently than
+“Canceling” Graphics in the Annotator.<span style="mso-spacerun: yes"> 
+</span>The Graphic Importer is intended to be more of a “housekeeping” tool,
+and as such, there is no automated email alert to the Team of a file delete.<span
+style="mso-spacerun: yes">  </span>If a file is “Canceled” in the Annotator, it
+requires a notification prior to the delete becoming permanent.</p>
+
+<p class=MsoNormal style='margin-left:.5in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=32 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Reset
+     Graphic Status</i>” supports multi-select.<span style="mso-spacerun:
+     yes">  </span>On the flyout menu you will find the two status changes
+     available.<span style="mso-spacerun: yes">  </span>If one is selected, the
+     status level of all the highlighted files will be edited, but keep in mind
+     that the files will not be available to view at the new status until a
+     notification has been sent out.<span style="mso-spacerun: yes"> 
+     </span>These modified files will now be in the “<i>Notify…</i>” interface.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1043" type="#_x0000_t75" style='width:195pt;height:132pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image037.png" o:title=""
+  croptop="33751f" cropbottom="8765f" cropleft="23654f" cropright="16343f"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=260 height=176
+src="./Graphic%20Importer%20Process_files/image038.jpg" v:shapes="_x0000_i1043"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=33 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Reset
+     Graphic Type</i>” supports multi-select.<span style="mso-spacerun: yes"> 
+     </span>On the flyout menu you will find the three type changes
+     available.<span style="mso-spacerun: yes">  </span>If one is selected, the
+     Graphic Type of all the highlighted files will be edited.</li>
+</ol>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1044" type="#_x0000_t75" style='width:195pt;height:132pt'>
+ <v:imagedata src="./Graphic%20Importer%20Process_files/image039.png" o:title=""
+  croptop="33751f" cropbottom="8765f" cropleft="23654f" cropright="16343f"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=260 height=176
+src="./Graphic%20Importer%20Process_files/image040.jpg" v:shapes="_x0000_i1044"><![endif]></p>
+
+<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ol style='margin-top:0in' start=34 type=1>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo2;tab-stops:list .5in'>“<i>Check
+     Show Usage</i>” and “<i>Check Inventory Usage</i>” provides you with quick
+     views of all the selected files assignments.</li>
+</ol>
+
+</div>
+
+</body>
+
+</html>

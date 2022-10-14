@@ -1,0 +1,100 @@
+[Version]
+Version=1.0.0.301
+
+[GPJAnnotator.exe <0009>]
+Dest=$(AppPath)
+Date=10/19/2003
+Time=10:00
+Version=1.0.0.301
+CABFilename=GPJAnnotator.CAB
+CABINFFile=GPJAnnotator.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=calwin32.dll
+Uses8=netwin32.dll
+Uses9=msado25.tlb
+Uses10=notes32.tlb
+Uses11=avviewx.dll
+Uses12=domobj.tlb
+Uses13=EXCEL9.OLB
+Uses14=ImagXpr5.dll
+Uses15=VBCore.dll
+Uses16=Wfica.ocx
+Uses17=activeds.tlb
+Uses18=MSCOMCTL.OCX
+Uses19=MSFLXGRD.OCX
+Uses20=COMDLG32.OCX
+Uses21=TABCTL32.OCX
+Uses22=pdf.ocx
+Uses23=RICHTX32.OCX
+Uses24=MSCAL.OCX
+
+[calwin32.dll <0009>]
+Dest=$(WinSysPath)
+Date=10/26/2001
+Time=15:37
+Version=5.5.8.0
+
+[netwin32.dll <0009>]
+Dest=$(WinSysPath)
+Date=10/26/2001
+Time=15:41
+Version=5.5.8.0
+
+[msado25.tlb <0009>]
+Dest=$(WinSysPath)
+Date=7/11/2002
+Time=22:47
+Version=2.71.9030.0
+
+[notes32.tlb <0009>]
+Dest=$(WinSysPath)
+Date=3/22/1999
+Time=14:31
+Version=0.0.0.0
+
+[avviewx.dll <0009>]
+Dest=$(WinSysPath)
+Date=10/30/1999
+Time=14:36
+Version=2000.15.42.129
+
+[domobj.tlb <0009>]
+Dest=$(WinSysPath)
+Date=3/11/2002
+Time=17:03
+Version=0.0.0.0
+
+[EXCEL9.OLB <0009>]
+Dest=$(WinSysPath)
+Date=3/19/1999
+Time=16:00
+Version=9.0.0.2719
+
+[VBCore.dll <0009>]
+Dest=$(WinSysPath)
+Date=6/14/1997
+Time=07:15
+Version=1.0.0.0
+
+[Wfica.ocx <0009>]
+Dest=$(WinSysPath)
+Date=9/25/2002
+Time=17:32
+Version=6.31.1051.0
+
+[activeds.tlb <0009>]
+Dest=$(WinSysPath)
+Date=8/23/2001
+Time=12:00
+Version=5.1.2600.0
+
+[pdf.ocx <0009>]
+Dest=$(WinSysPath)
+Date=10/22/1999
+Time=09:51
+Version=2.0.0.100

@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=Downloader
+
+
+[Package|Downloader|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Package (2)
+
+[Package|Downloader|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Downloader|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Downloader|Files Found]
+
+[Package|Downloader|Files Released]
+
+[Package|Downloader|Missing Dependency Information]
+
+[Package|Downloader|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|Downloader|Files Added]
+
+[Package|Downloader|Files Removed]
+
+[Package|Downloader|Files In Project]
+C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Downloader.exe=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Downloader|Configure Registry Files]
+Applicable=No
+
+[Package|Downloader|Configure Remote Servers]
+Applicable=No
+
+[Package|Downloader|Install Locations]
+C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Downloader.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Downloader|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Downloader.exe=No
+
+[Package|Downloader|Distribution]
+Type=single
+Size=
+Title=Downloader
+
+[Package|Downloader|IconGroups]
+Group0=Downloader
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Downloader|Downloader]
+Icon1=Downloader.exe
+Title1=Downloader
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Downloader|Package]
+PackageFolder=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Package (2)
+ProjectFolder=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)
+ServerSideCab=
+File1=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Package (2)\setup.exe
+File2=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Package (2)\Setup.Lst
+File3=C:\Data\VB Projects\GPJAnnotator\2004-08-20 Annotator (Redline Archive)\Package (2)\Downloader.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

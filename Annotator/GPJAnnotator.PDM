@@ -1,0 +1,2212 @@
+[Root]
+Most Recent Package=GPJAnno_Citrix
+Most Recent Deploy=GPJAnno_Citrix
+
+[Deploy|GPJAnnoOnL|Root]
+Package=GPJAnnotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=l:\Support\Applications\GPJAnnotator
+
+
+[Package|GPJAnnoDep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator
+
+[Package|GPJAnnoDep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnnoDep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnnoDep|Files Found]
+
+[Package|GPJAnnoDep|Files Released]
+
+[Package|GPJAnnoDep|Missing Dependency Information]
+C:\WINNT\system32\wshom.ocx=
+C:\WINNT\system32\notes32.tlb=
+C:\WINNT\system32\imgedit.ocx=
+C:\WINNT\system32\imgadmin.ocx=
+D:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\WINNT\system32\wangcmn.dll=
+
+[Package|GPJAnnoDep|Out-of-Date Dependency Information]
+
+[Package|GPJAnnoDep|Files Added]
+c:\winnt\system32\wangcmn.dll=
+
+[Package|GPJAnnoDep|Files Removed]
+
+[Package|GPJAnnoDep|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINNT\system32\imgadmin.ocx=Yes
+C:\WINNT\system32\imgedit.ocx=Yes
+C:\WINNT\system32\notes32.tlb=Yes
+C:\WINNT\system32\wshom.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\wangcmn.dll=Yes
+
+[Package|GPJAnnoDep|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnnoDep|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnnoDep|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\imgadmin.ocx=$(WinSysPath)
+C:\WINNT\system32\imgedit.ocx=$(WinSysPath)
+C:\WINNT\system32\notes32.tlb=$(WinSysPath)
+C:\WINNT\system32\wshom.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\wangcmn.dll=$(WinSysPath)
+
+[Package|GPJAnnoDep|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=No
+
+[Package|GPJAnnoDep|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|GPJAnnoDep|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJAnnoDep|GPJAnnotator]
+Icon1=GPJAnnotator.EXE
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJAnnoDep|DepFile]
+DepCabFile=GPJAnnotator.CAB
+DepCabRun=GPJAnnotator.INF
+
+[Package|GPJAnnoDep|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GPJAnnoFull|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\PackageFull
+
+[Package|GPJAnnoFull|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnnoFull|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnnoFull|Files Found]
+
+[Package|GPJAnnoFull|Files Released]
+
+[Package|GPJAnnoFull|Missing Dependency Information]
+C:\WINNT\system32\wshom.ocx=
+C:\WINNT\system32\notes32.tlb=
+D:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|GPJAnnoFull|Out-of-Date Dependency Information]
+
+[Package|GPJAnnoFull|Files Added]
+D:\Download\VoloView\VoloVEc.exe=
+
+[Package|GPJAnnoFull|Files Removed]
+
+[Package|GPJAnnoFull|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINNT\system32\notes32.tlb=Yes
+C:\WINNT\system32\wshom.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Download\VoloView\VoloVEc.exe=Yes
+
+[Package|GPJAnnoFull|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnnoFull|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnnoFull|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\notes32.tlb=$(WinSysPath)
+C:\WINNT\system32\wshom.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Download\VoloView\VoloVEc.exe=$(AppPath)
+
+[Package|GPJAnnoFull|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\GPJAnnotator.exe=No
+D:\Download\VoloView\VoloVEc.exe=No
+
+[Package|GPJAnnoFull|Distribution]
+Type=single
+Size=
+Title=GPJAnnoFull
+
+[Package|GPJAnnoFull|IconGroups]
+Group0=GPJAnnoFull
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJAnnoFull|GPJAnnoFull]
+Icon1=GPJAnnotator.exe
+Title1=GPJAnnoFull
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJAnnoFull|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\PackageFull
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\PackageFull\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\PackageFull\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\PackageFull\GPJAnnotator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnnoFull|Root]
+Package=GPJAnnoFull
+Handler=PDWizard.FolderDplySubWiz
+Folder=l:\Support\Applications\GPJAnnoFull
+
+[Deploy|GPJAnnoOnH|Root]
+Package=GPJAnnotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=h:\GPJ Applications\Annotator\GPJ Annotator\Application
+
+[Deploy|GPJAnnoOnG|Root]
+Package=GPJAnnotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\Shared\PCSoft\GPJ Annotator\Annotator Application
+
+
+[Package|GPJAnnotator2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\JDE Version\Package2
+
+[Package|GPJAnnotator2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnnotator2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnnotator2|Files Found]
+
+[Package|GPJAnnotator2|Files Released]
+
+[Package|GPJAnnotator2|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|GPJAnnotator2|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|GPJAnnotator2|Files Added]
+
+[Package|GPJAnnotator2|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|GPJAnnotator2|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\JDE Version\GPJAnnotator2.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=No
+C:\WINNT\system32\MSADO20.TLB=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|GPJAnnotator2|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnnotator2|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnnotator2|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\JDE Version\GPJAnnotator2.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|GPJAnnotator2|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\JDE Version\GPJAnnotator2.exe=No
+
+[Package|GPJAnnotator2|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator2
+
+[Package|GPJAnnotator2|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJAnnotator2|GPJAnnotator]
+Icon1=GPJAnnotator2.exe
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJAnnotator2|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\JDE Version\Package2
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\JDE Version
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\JDE Version\Package2\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\JDE Version\Package2\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\JDE Version\Package2\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnnotatorOnL|Root]
+Package=GPJAnnotator2
+Handler=PDWizard.FolderDplySubWiz
+Folder=l:\Support\Applications\GPJAnnotator2
+
+
+[Package|DHW Annotator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\DHW Version\Package
+
+[Package|DHW Annotator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DHW Annotator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DHW Annotator|Files Found]
+
+[Package|DHW Annotator|Files Released]
+
+[Package|DHW Annotator|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|DHW Annotator|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|DHW Annotator|Files Added]
+
+[Package|DHW Annotator|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|DHW Annotator|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=No
+C:\WINNT\system32\MSADO20.TLB=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|DHW Annotator|Configure Registry Files]
+Applicable=No
+
+[Package|DHW Annotator|Configure Remote Servers]
+Applicable=No
+
+[Package|DHW Annotator|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|DHW Annotator|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=No
+
+[Package|DHW Annotator|Distribution]
+Type=single
+Size=
+Title=DHWAnnotator
+
+[Package|DHW Annotator|IconGroups]
+Group0=DHWAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|DHW Annotator|DHWAnnotator]
+Icon1=GPJAnnotator3.exe
+Title1=DHWAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DHW Annotator|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\DHW Version\Package
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\DHW Version
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\DHW Version\Package\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\DHW Version\Package\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\DHW Version\Package\GPJAnnotator3.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|DHW Annotator on L|Root]
+Package=DHW Annotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=l:\Support\Applications\DHW Annotator\Setup
+
+
+[Package|Citrix GPJ Annotator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Package
+
+[Package|Citrix GPJ Annotator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Citrix GPJ Annotator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Citrix GPJ Annotator|Files Found]
+
+[Package|Citrix GPJ Annotator|Files Released]
+
+[Package|Citrix GPJ Annotator|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\notes\domobj.tlb=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|Citrix GPJ Annotator|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|Citrix GPJ Annotator|Files Added]
+
+[Package|Citrix GPJ Annotator|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|Citrix GPJ Annotator|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=No
+C:\WINNT\system32\MSADO20.TLB=Yes
+C:\notes\domobj.tlb=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Citrix GPJ Annotator|Configure Registry Files]
+Applicable=No
+
+[Package|Citrix GPJ Annotator|Configure Remote Servers]
+Applicable=No
+
+[Package|Citrix GPJ Annotator|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\notes\domobj.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Citrix GPJ Annotator|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=No
+
+[Package|Citrix GPJ Annotator|Distribution]
+Type=single
+Size=
+Title=Citrix GPJAnnotator
+
+[Package|Citrix GPJ Annotator|IconGroups]
+Group0=Citrix GPJAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Citrix GPJ Annotator|Citrix GPJAnnotator]
+Icon1=GPJAnnotator2.exe
+Title1=Citrix GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Citrix GPJ Annotator|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Package
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Package\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Package\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Package\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Beta Annotator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Beta Package
+
+[Package|Beta Annotator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Beta Annotator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Beta Annotator|Files Found]
+
+[Package|Beta Annotator|Files Released]
+
+[Package|Beta Annotator|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\notes\domobj.tlb=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|Beta Annotator|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|Beta Annotator|Files Added]
+
+[Package|Beta Annotator|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|Beta Annotator|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=No
+C:\WINNT\system32\MSADO20.TLB=Yes
+C:\notes\domobj.tlb=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Beta Annotator|Configure Registry Files]
+Applicable=No
+
+[Package|Beta Annotator|Configure Remote Servers]
+Applicable=No
+
+[Package|Beta Annotator|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\notes\domobj.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Beta Annotator|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\GPJAnnotator2.exe=No
+
+[Package|Beta Annotator|Distribution]
+Type=single
+Size=
+Title=BetaAnnotator
+
+[Package|Beta Annotator|IconGroups]
+Group0=BetaAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Beta Annotator|BetaAnnotator]
+Icon1=GPJAnnotator2.exe
+Title1=BetaAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Beta Annotator|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Beta Package
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Beta Package\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Beta Package\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\Citrix 11-22 Version\Beta Package\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Beta Annotator|Root]
+Package=Beta Annotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=y:\Annotator\Beta Annotator
+
+
+[Package|GPJ Annotator GoLive|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\Package (2)
+
+[Package|GPJ Annotator GoLive|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJ Annotator GoLive|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJ Annotator GoLive|Files Found]
+
+[Package|GPJ Annotator GoLive|Files Released]
+User.DLL=
+
+[Package|GPJ Annotator GoLive|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\notes\domobj.tlb=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|GPJ Annotator GoLive|Out-of-Date Dependency Information]
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\ImagXpr5.dll=
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|GPJ Annotator GoLive|Files Added]
+
+[Package|GPJ Annotator GoLive|Files Removed]
+
+[Package|GPJ Annotator GoLive|Files In Project]
+D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\GPJAnnotator2.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=Yes
+C:\WINNT\system32\MSADO20.TLB=Yes
+C:\notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\WINNT\system32\ImagXpr5.dll=Yes
+C:\WINNT\system32\imagx5.dll=Yes
+C:\WINNT\system32\picn20.dll=Yes
+C:\WINNT\system32\imagr5.dll=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|GPJ Annotator GoLive|Configure Registry Files]
+Applicable=No
+
+[Package|GPJ Annotator GoLive|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJ Annotator GoLive|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\GPJAnnotator2.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\notes\notes32.tlb=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\WINNT\system32\ImagXpr5.dll=$(WinSysPath)
+C:\WINNT\system32\imagx5.dll=$(WinSysPath)
+C:\WINNT\system32\picn20.dll=$(WinSysPath)
+C:\WINNT\system32\imagr5.dll=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|GPJ Annotator GoLive|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\GPJAnnotator2.exe=No
+
+[Package|GPJ Annotator GoLive|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|GPJ Annotator GoLive|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJ Annotator GoLive|GPJAnnotator]
+Icon1=GPJAnnotator2.exe
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJ Annotator GoLive|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\Package (2)
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\Package (2)\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\Package (2)\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\Test GoLive Version\Package (2)\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Citrix GPJ Annotator|Root]
+Package=GPJ Annotator for Citrix
+Handler=PDWizard.FolderDplySubWiz
+Folder=q:\GPJAnnotator\Temp\GPJAnnotatorSetup
+
+
+[Package|GPJ Annotator for Citrix|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)
+
+[Package|GPJ Annotator for Citrix|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJ Annotator for Citrix|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJ Annotator for Citrix|Files Found]
+
+[Package|GPJ Annotator for Citrix|Files Released]
+
+[Package|GPJ Annotator for Citrix|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\notes\domobj.tlb=
+C:\Program Files\Common Files\System\ado\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+D:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|GPJ Annotator for Citrix|Out-of-Date Dependency Information]
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\ImagXpr5.dll=
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+
+[Package|GPJ Annotator for Citrix|Files Added]
+
+[Package|GPJ Annotator for Citrix|Files Removed]
+c:\program files\microsoft office\office\excel9.olb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\notes\notes32.tlb=
+
+[Package|GPJ Annotator for Citrix|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\notes\notes32.tlb=No
+C:\notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=No
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\WINNT\system32\ImagXpr5.dll=Yes
+C:\WINNT\system32\imagx5.dll=Yes
+C:\WINNT\system32\picn20.dll=Yes
+C:\WINNT\system32\imagr5.dll=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\GPJAnnotator2.exe=Yes
+D:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|GPJ Annotator for Citrix|Configure Registry Files]
+Applicable=No
+
+[Package|GPJ Annotator for Citrix|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJ Annotator for Citrix|Install Locations]
+\\Detnovfs2\data1\GPJAnnotator\Temp\GPJAnnotator2.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\notes\notes32.tlb=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\MSADO20.TLB=$(WinSysPath)
+C:\notes\domobj.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\WINNT\system32\ImagXpr5.dll=$(WinSysPath)
+C:\WINNT\system32\imagx5.dll=$(WinSysPath)
+C:\WINNT\system32\picn20.dll=$(WinSysPath)
+C:\WINNT\system32\imagr5.dll=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\GPJAnnotator2.exe=$(AppPath)
+D:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+
+[Package|GPJ Annotator for Citrix|Configure Shared Files]
+Applicable=Yes
+\\Detnovfs2\data1\GPJAnnotator\Temp\GPJAnnotator2.exe=No
+D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\GPJAnnotator2.exe=No
+
+[Package|GPJ Annotator for Citrix|Distribution]
+Type=single
+Size=
+Title=GPJ Annotator
+
+[Package|GPJ Annotator for Citrix|IconGroups]
+Group0=GPJAnnotator for Citrix
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJ Annotator for Citrix|GPJAnnotator for Citrix]
+Icon1=GPJAnnotator2.exe
+Title1=GPJAnnotator for Citrix
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJ Annotator for Citrix|Package]
+PackageFolder=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)
+ServerSideCab=
+File1=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\setup.exe
+File2=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\Setup.Lst
+File3=D:\Data\VB Projects\GPJAnnotator\Test MDAC 2-5 Version (8-27-01)\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Citrix GPJ Annotator with MDAC 2-5|Root]
+Package=GPJ Annotator for Citrix
+Handler=PDWizard.FolderDplySubWiz
+Folder=q:\GPJAnnotator\Temp\GPJAnnotator Setup with MDAC 2-5
+
+
+[Package|GPJ Annotator for CTX02|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=q:\GPJAnnotator\Support\Annotator CTX02 Install
+
+[Package|GPJ Annotator for CTX02|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJ Annotator for CTX02|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJ Annotator for CTX02|Files Found]
+
+[Package|GPJ Annotator for CTX02|Files Released]
+
+[Package|GPJ Annotator for CTX02|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+D:\Hardcore VB\Release\VBCore.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\notes\domobj.tlb=
+C:\notes\notes32.tlb=
+D:\Program Files\Autodesk Volo View\avviewx.dll=
+
+[Package|GPJ Annotator for CTX02|Out-of-Date Dependency Information]
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+C:\WINNT\system32\ImagXpr5.dll=
+
+[Package|GPJ Annotator for CTX02|Files Added]
+
+[Package|GPJ Annotator for CTX02|Files Removed]
+c:\program files\microsoft office\office\excel9.olb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+\\detnovfs2\data1\gpjannotator\temp\test exe or debug\gpjannotator2.exe=
+c:\notes\notes32.tlb=
+
+[Package|GPJ Annotator for CTX02|Files In Project]
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\notes\notes32.tlb=No
+C:\notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=No
+C:\WINNT\system32\ImagXpr5.dll=Yes
+C:\WINNT\system32\imagx5.dll=Yes
+C:\WINNT\system32\picn20.dll=Yes
+C:\WINNT\system32\imagr5.dll=Yes
+D:\Hardcore VB\Release\VBCore.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\Detnovfs2\data1\GPJAnnotator\Support\Annotator CTX02 Install\GPJAnnotator2.exe=Yes
+
+[Package|GPJ Annotator for CTX02|Configure Registry Files]
+Applicable=No
+
+[Package|GPJ Annotator for CTX02|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJ Annotator for CTX02|Install Locations]
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\notes\notes32.tlb=$(WinSysPath)
+C:\notes\domobj.tlb=$(WinSysPath)
+C:\WINNT\system32\ImagXpr5.dll=$(WinSysPath)
+C:\WINNT\system32\imagx5.dll=$(WinSysPath)
+C:\WINNT\system32\picn20.dll=$(WinSysPath)
+C:\WINNT\system32\imagr5.dll=$(WinSysPath)
+D:\Hardcore VB\Release\VBCore.dll=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\Detnovfs2\data1\GPJAnnotator\Temp\Test EXE or Debug\GPJAnnotator2.exe=$(AppPath)
+D:\Data\VB Projects\GPJAnnotator\Test Printer Check Version (9-6-01)\GPJAnnotator2.exe=$(AppPath)
+D:\Data\VB Projects\GPJAnnotator\Floorplan Interface Change (10-10-01)\GPJAnnotator2.exe=$(AppPath)
+\\Detnovfs2\data1\GPJAnnotator\Support\Annotator CTX02 Install\GPJAnnotator2.exe=$(AppPath)
+
+[Package|GPJ Annotator for CTX02|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\Test Printer Check Version (9-6-01)\GPJAnnotator2.exe=No
+D:\Data\VB Projects\GPJAnnotator\Floorplan Interface Change (10-10-01)\GPJAnnotator2.exe=No
+\\Detnovfs2\data1\GPJAnnotator\Support\Annotator CTX02 Install\GPJAnnotator2.exe=No
+
+[Package|GPJ Annotator for CTX02|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator2
+
+[Package|GPJ Annotator for CTX02|IconGroups]
+Group0=GPJAnnotator2
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|GPJ Annotator for CTX02|GPJAnnotator2]
+Icon1=GPJAnnotator2.exe
+Title1=GPJAnnotator2
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJ Annotator for CTX02|Package]
+PackageFolder=q:\GPJAnnotator\Support\Annotator CTX02 Install
+ProjectFolder=D:\Data\VB Projects\GPJAnnotator\Graphic Approval Interface (11-12-01)
+ServerSideCab=
+File1=q:\GPJAnnotator\Support\Annotator CTX02 Install\setup.exe
+File2=q:\GPJAnnotator\Support\Annotator CTX02 Install\Setup.Lst
+File3=q:\GPJAnnotator\Support\Annotator CTX02 Install\GPJAnnotator2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GPJAnnotator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Data\Annotator Setup
+
+[Package|GPJAnnotator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnnotator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnnotator|Files Found]
+
+[Package|GPJAnnotator|Files Released]
+
+[Package|GPJAnnotator|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\WINDOWS\SYSTEM32\activeds.tlb=
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Lotus\Notes\domobj.tlb=
+C:\Lotus\Notes\notes32.tlb=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|GPJAnnotator|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|GPJAnnotator|Files Added]
+
+[Package|GPJAnnotator|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|GPJAnnotator|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=Yes
+C:\Lotus\Notes\notes32.tlb=Yes
+C:\Lotus\Notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=Yes
+C:\WINDOWS\SYSTEM32\activeds.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+
+[Package|GPJAnnotator|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnnotator|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnnotator|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\Lotus\Notes\notes32.tlb=$(WinSysPath)
+C:\Lotus\Notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\activeds.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|GPJAnnotator|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=No
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=No
+
+[Package|GPJAnnotator|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|GPJAnnotator|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|GPJAnnotator|GPJAnnotator]
+Icon1=GPJAnnotator.exe
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJAnnotator|Package]
+PackageFolder=c:\Data\Annotator Setup
+ProjectFolder=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)
+ServerSideCab=
+File1=c:\Data\Annotator Setup\setup.exe
+File2=c:\Data\Annotator Setup\Setup.Lst
+File3=c:\Data\Annotator Setup\GPJAnnotator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Local Setup|Root]
+Package=GPJAnnotator
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Data\Annotator Setup\Package
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\WINNT\system32\MSADO20.TLB=
+C:\notes\notes32.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\WINDOWS\SYSTEM32\activeds.tlb=
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Lotus\Notes\domobj.tlb=
+C:\Lotus\Notes\notes32.tlb=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\TABCTL32.OCX=
+C:\WINNT\system32\RICHTX32.OCX=
+C:\WINNT\system32\MSFLXGRD.OCX=
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+c:\notes\notes32.tlb=
+
+[Package|Dep File 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=Yes
+C:\Lotus\Notes\notes32.tlb=Yes
+C:\Lotus\Notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=Yes
+C:\WINDOWS\SYSTEM32\activeds.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINNT\system32\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\Lotus\Notes\notes32.tlb=$(WinSysPath)
+C:\Lotus\Notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\activeds.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\Data\VB Projects\GPJAnnotator\DHW Version\GPJAnnotator3.exe=No
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|Dep File 1|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 1|GPJAnnotator]
+Icon1=GPJAnnotator.exe
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=GPJAnnotator.CAB
+DepCabRun=GPJAnnotator.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=c:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)
+ProjectFolder=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)
+ServerSideCab=
+File1=c:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=
+C:\WINDOWS\SYSTEM32\activeds.tlb=
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Lotus\Notes\domobj.tlb=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\Lotus\Notes\notes32.tlb=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=Yes
+C:\Lotus\Notes\notes32.tlb=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\Lotus\Notes\domobj.tlb=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=Yes
+C:\WINDOWS\SYSTEM32\activeds.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\Lotus\Notes\notes32.tlb=$(WinSysPath)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\Lotus\Notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\Program Files\Citrix\ICA Client\Wfica.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\activeds.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Adobe\Acrobat 4.0\Reader\ActiveX\pdf.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\GPJAnnotator.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=GPJAnnotator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|GPJAnnotator]
+Icon1=GPJAnnotator.exe
+Title1=GPJAnnotator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\Package
+ProjectFolder=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)
+ServerSideCab=
+File1=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\Package\setup.exe
+File2=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\Package\Setup.Lst
+File3=C:\Data\VB Projects\GPJAnnotator\2003-09-25 Annotator (Usage Reports)\Package\GPJAnnotator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GPJAnno_TEST|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\Package (3)
+
+[Package|GPJAnno_TEST|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnno_TEST|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnno_TEST|Files Found]
+
+[Package|GPJAnno_TEST|Files Released]
+
+[Package|GPJAnno_TEST|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=
+C:\Program Files\lotus\notes\domobj.tlb=
+C:\WINDOWS\SYSTEM32\wmp.dll=
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\Program Files\Common Files\System\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|GPJAnno_TEST|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|GPJAnno_TEST|Files Added]
+
+[Package|GPJAnno_TEST|Files Removed]
+
+[Package|GPJAnno_TEST|Files In Project]
+C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\GPJAnno_TEST.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\System\ADO\msado25.tlb=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=Yes
+C:\WINDOWS\SYSTEM32\wmp.dll=Yes
+C:\WINDOWS\SYSTEM32\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM32\msvcrt.dll=Yes
+C:\Program Files\lotus\notes\domobj.tlb=Yes
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|GPJAnno_TEST|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnno_TEST|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnno_TEST|Install Locations]
+C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\GPJAnno_TEST.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msado25.tlb=$(WinSysPath)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\lotus\notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|GPJAnno_TEST|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\GPJAnno_TEST.exe=No
+
+[Package|GPJAnno_TEST|Distribution]
+Type=single
+Size=
+Title=GPJAnno_TEST
+
+[Package|GPJAnno_TEST|IconGroups]
+Group0=GPJAnno_TEST
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|GPJAnno_TEST|GPJAnno_TEST]
+Icon1=GPJAnno_TEST.exe
+Title1=GPJAnno_TEST
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|GPJAnno_TEST|Package]
+PackageFolder=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\Package (3)
+ProjectFolder=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)
+ServerSideCab=
+File1=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\Package (3)\setup.exe
+File2=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\Package (3)\Setup.Lst
+File3=C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\Package (3)\GPJAnno_TEST.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnno_TEST on G|Root]
+Package=GPJAnno_TEST
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\Shared\PCSoft\GPJ Applications\GPJAnnotator\GPJAnno_TEST
+
+
+[Package|GPJAnno_DEV|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\Setup
+
+[Package|GPJAnno_DEV|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnno_DEV|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnno_DEV|Files Found]
+
+[Package|GPJAnno_DEV|Files Released]
+
+[Package|GPJAnno_DEV|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=
+C:\Program Files\lotus\notes\domobj.tlb=
+C:\WINDOWS\SYSTEM32\wmp.dll=
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\Program Files\Common Files\System\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|GPJAnno_DEV|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|GPJAnno_DEV|Files Added]
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\FILECOPY.AVI=
+
+[Package|GPJAnno_DEV|Files Removed]
+
+[Package|GPJAnno_DEV|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\System\ADO\msado25.tlb=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=Yes
+C:\WINDOWS\SYSTEM32\wmp.dll=Yes
+C:\WINDOWS\SYSTEM32\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM32\msvcrt.dll=Yes
+C:\Program Files\lotus\notes\domobj.tlb=Yes
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnno_DEV01.exe=Yes
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\FILECOPY.AVI=Yes
+
+[Package|GPJAnno_DEV|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnno_DEV|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnno_DEV|Install Locations]
+C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\GPJAnno_TEST.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msado25.tlb=$(WinSysPath)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\lotus\notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnno_DEV01.exe=$(AppPath)
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\FILECOPY.AVI=$(AppPath)
+
+[Package|GPJAnno_DEV|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects\GPJAnnotator\2005-10-18 Annotator (XPDF)\GPJAnno_TEST.exe=No
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnno_DEV01.exe=No
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\FILECOPY.AVI=No
+
+[Package|GPJAnno_DEV|Distribution]
+Type=single
+Size=
+Title=GPJAnno_DEV
+
+[Package|GPJAnno_DEV|IconGroups]
+Group0=GPJ Annotator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|GPJAnno_DEV|GPJ Annotator]
+Icon1=GPJAnno_DEV01.exe
+Title1=GPJ Annotator
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|GPJAnno_DEV|Package]
+PackageFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\Setup
+ProjectFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)
+ServerSideCab=
+File1=C:\Data\VB Projects 10g DEV\GPJAnnotator\Setup\setup.exe
+File2=C:\Data\VB Projects 10g DEV\GPJAnnotator\Setup\Setup.Lst
+File3=C:\Data\VB Projects 10g DEV\GPJAnnotator\Setup\GPJAnno_DEV01.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnno_DEVonG|Root]
+Package=GPJAnno_DEV
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\Shared\PCSoft\GPJ Applications\GPJAnnotator\Annotator DEV Install
+
+
+[Package|GPJAnno_10g|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package
+
+[Package|GPJAnno_10g|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnno_10g|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnno_10g|Files Found]
+
+[Package|GPJAnno_10g|Files Released]
+
+[Package|GPJAnno_10g|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=
+C:\Program Files\lotus\notes\domobj.tlb=
+C:\WINDOWS\SYSTEM32\wmp.dll=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\Program Files\Common Files\System\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+
+[Package|GPJAnno_10g|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+
+[Package|GPJAnno_10g|Files Added]
+
+[Package|GPJAnno_10g|Files Removed]
+
+[Package|GPJAnno_10g|Files In Project]
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnnotator.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\calwin32.dll=Yes
+C:\WINDOWS\SYSTEM32\netwin32.dll=Yes
+C:\Program Files\Common Files\System\ADO\msado25.tlb=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\WINDOWS\SYSTEM32\wmp.dll=Yes
+C:\WINDOWS\SYSTEM32\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM32\msvcrt.dll=Yes
+C:\Program Files\lotus\notes\domobj.tlb=Yes
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=Yes
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|GPJAnno_10g|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnno_10g|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnno_10g|Install Locations]
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msado25.tlb=$(WinSysPath)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\lotus\notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|GPJAnno_10g|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnnotator.exe=No
+
+[Package|GPJAnno_10g|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|GPJAnno_10g|IconGroups]
+Group0=GPJ Applications
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|GPJAnno_10g|GPJ Applications]
+Icon1=GPJAnnotator.exe
+Title1=GPJ Annotator
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|GPJAnno_10g|Package]
+PackageFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package
+ProjectFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)
+ServerSideCab=
+File1=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\setup.exe
+File2=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\Setup.Lst
+File3=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\GPJAnnotator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnno_10g|Root]
+Package=GPJAnno_10g
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\Shared\PCSoft\GPJ Applications\GPJAnnotator\Annotator 10g Install
+
+
+[Package|GPJAnno_Citrix|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\CitrixDeploy
+
+[Package|GPJAnno_Citrix|Configure DAO ISAMs]
+Applicable=No
+
+[Package|GPJAnno_Citrix|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GPJAnno_Citrix|Files Found]
+
+[Package|GPJAnno_Citrix|Files Released]
+
+[Package|GPJAnno_Citrix|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=
+C:\Program Files\lotus\notes\domobj.tlb=
+C:\WINDOWS\SYSTEM32\wmp.dll=
+C:\Hardcore2\Release\VBCore.dll=
+C:\Program Files\Autodesk Volo View\avviewx.dll=
+C:\Program Files\Common Files\System\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM32\netwin32.dll=
+C:\WINDOWS\SYSTEM32\calwin32.dll=
+C:\Program Files\George P Johnson\XPD8\MSFLXGRD.OCX=
+C:\WINDOWS\SYSTEM32\domobj.tlb=
+C:\WINDOWS\SYSTEM32\ieframe.dll=
+
+[Package|GPJAnno_Citrix|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\scrrun.dll=
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=
+C:\WINDOWS\SYSTEM32\comdlg32.ocx=
+
+[Package|GPJAnno_Citrix|Files Added]
+
+[Package|GPJAnno_Citrix|Files Removed]
+
+[Package|GPJAnno_Citrix|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msado25.tlb=Yes
+C:\Program Files\Autodesk Volo View\avviewx.dll=Yes
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=Yes
+C:\WINDOWS\SYSTEM32\imagx5.dll=Yes
+C:\WINDOWS\SYSTEM32\picn20.dll=Yes
+C:\WINDOWS\SYSTEM32\imagr5.dll=Yes
+C:\Hardcore2\Release\VBCore.dll=Yes
+C:\WINDOWS\SYSTEM32\wmp.dll=Yes
+C:\WINDOWS\SYSTEM32\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM32\msvcrt.dll=Yes
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=Yes
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\DETMSFS01\Apps\Shared\PCSoft\GPJ Applications\AppExes\GPJAnnotator.exe=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\ieframe.dll=Yes
+C:\WINDOWS\SYSTEM32\domobj.tlb=Yes
+C:\Program Files\George P Johnson\XPD8\MSFLXGRD.OCX=Yes
+
+[Package|GPJAnno_Citrix|Configure Registry Files]
+Applicable=No
+
+[Package|GPJAnno_Citrix|Configure Remote Servers]
+Applicable=No
+
+[Package|GPJAnno_Citrix|Install Locations]
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\calwin32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\netwin32.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msado25.tlb=$(WinSysPath)
+C:\Program Files\Autodesk Volo View\avviewx.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ImagXpr5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagx5.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\picn20.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\imagr5.dll=$(WinSysPath)
+C:\Hardcore2\Release\VBCore.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\wmp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\lotus\notes\domobj.tlb=$(WinSysPath)
+C:\Program Files\GlyphAndCog\XpdfViewerCtrl\XpdfViewerCtrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\ACTIVEDS.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\aghypertext.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\DETMSFS01\Apps\Shared\PCSoft\GPJ Applications\AppExes\GPJAnnotator.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\ieframe.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\domobj.tlb=$(WinSysPath)
+C:\Program Files\George P Johnson\XPD8\MSFLXGRD.OCX=$(WinSysPath)
+
+[Package|GPJAnno_Citrix|Configure Shared Files]
+Applicable=Yes
+C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\GPJAnnotator.exe=No
+\\DETMSFS01\Apps\Shared\PCSoft\GPJ Applications\AppExes\GPJAnnotator.exe=No
+
+[Package|GPJAnno_Citrix|Distribution]
+Type=single
+Size=
+Title=GPJAnnotator
+
+[Package|GPJAnno_Citrix|IconGroups]
+Group0=GPJ Applications
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|GPJAnno_Citrix|GPJ Applications]
+Icon1=GPJAnnotator.exe
+Title1=GPJ Annotator
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|GPJAnno_Citrix|Package]
+PackageFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\CitrixDeploy
+ProjectFolder=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)
+ServerSideCab=
+File1=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\CitrixDeploy\setup.exe
+File2=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\CitrixDeploy\Setup.Lst
+File3=C:\Data\VB Projects 10g DEV\GPJAnnotator\2006-07-30 Annotator (Facilities)\10g Package\CitrixDeploy\GPJAnnotator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|GPJAnno_Citrix|Root]
+Package=GPJAnno_Citrix
+Handler=PDWizard.FolderDplySubWiz
+Folder=g:\Shared\PCSoft\GPJ Applications\GPJAnnotator\Annotator 10g Install\Anno_20100914
